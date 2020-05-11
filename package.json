@@ -1,0 +1,27 @@
+{
+  "name": "notion-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhasv1995/notion-proxy.git"
+  },
+  "author": "Suhas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suhasv1995/notion-proxy/issues"
+  },
+  "homepage": "https://github.com/suhasv1995/notion-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
